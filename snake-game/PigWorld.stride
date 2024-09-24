@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="PigWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class PigWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Pig" type-java="Pig" name="pig" value="new Pig()" value-java=" new Pig()" enable="true"/>
+                <call expression="addObject(pig,291,207)" expression-java="addObject(pig, 291, 207)" enable="true"/>
+                <variable type="Snake" type-java="Snake" name="snake" value="new Snake()" value-java=" new Snake()" enable="true"/>
+                <call expression="addObject(snake,564,365)" expression-java="addObject(snake, 564, 365)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger,527,274)" expression-java="addObject(burger, 527, 274)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger2" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger2,450,335)" expression-java="addObject(burger2, 450, 335)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger3" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger3,464,48)" expression-java="addObject(burger3, 464, 48)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger4" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger4,432,127)" expression-java="addObject(burger4, 432, 127)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger5" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger5,207,50)" expression-java="addObject(burger5, 207, 50)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger6" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger6,149,133)" expression-java="addObject(burger6, 149, 133)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger7" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger7,90,54)" expression-java="addObject(burger7, 90, 54)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger8" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger8,58,277)" expression-java="addObject(burger8, 58, 277)" enable="true"/>
+                <variable type="Burger" type-java="Burger" name="burger9" value="new Burger()" value-java=" new Burger()" enable="true"/>
+                <call expression="addObject(burger9,128,359)" expression-java="addObject(burger9, 128, 359)" enable="true"/>
+                <call expression="pig.setLocation(270,223)" expression-java="pig.setLocation(270, 223)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>

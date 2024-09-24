@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Snake\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ moveAround()
+comment2.text=\r\n\ Moves\ the\ snake\ around\ in\ a\ random\ pattern\ and\ makes\ sure\ that\ it\ doesn't\ get\ stuck\ at\ the\ border\r\n
+comment3.params=
+comment3.target=void\ eat()
+comment3.text=\r\n\ When\ the\ snake\ collides\ with\ the\ pig,\ the\ pig\ disappear\r\n
+comment4.params=
+comment4.target=boolean\ isGameOver()
+comment4.text=\r\n\ Checking\ if\ the\ pig\ is\ dead\ and\ return\ true\ if\ that's\ the\ case\r\n
+comment5.params=
+comment5.target=void\ transitionToGameOverWorld()
+comment5.text=\r\n\ Changing\ the\ world\ to\ the\ Game\ Over\ World\ and\ playing\ a\ losing\ sound\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pig
+comment0.text=\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Pig\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ Controls\ the\ pig\ using\ awsd\ or\ arrow\ keys\r\n\ left\ and\ right\ respectively\ turn\ the\ pig\ left\ and\ right\r\n\ up\ and\ down\ respectively\ moves\ the\ pig\ towards\ the\ direction\ that\ he\ is\ pointing\ or\ the\ opposite\ direction\r\n
+comment3.params=
+comment3.target=void\ eat()
+comment3.text=\r\n\ When\ the\ pig\ collides\ with\ a\ burger,\ it\ eats\ it\ and\ create\ a\ sound\r\n
+comment4.params=
+comment4.target=boolean\ isGameWon()
+comment4.text=\r\n\ Checking\ if\ the\ pig\ ate\ all\ of\ the\ burgers\ and\ return\ true\ if\ that's\ the\ case\r\n
+comment5.params=
+comment5.target=void\ transitionToGameWonWorld()
+comment5.text=\r\n\ Changing\ the\ world\ to\ the\ Game\ Won\ World\ and\ playing\ a\ winning\ sound\r\n
+numComments=6
